@@ -7,7 +7,7 @@
 	/*MySQL*/
 	$USR = "root"; //Database user
 	$PWD = ""; //Database password
-	$DBS = "database" //Database
+	$DBS = "database"; //Database
 	$SVR = "localhost"; //Database IP
 	$conn = mysql_connect($SVR, $USR, $PWD);
 	mysql_select_db($DBS);
